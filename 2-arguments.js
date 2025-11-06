@@ -1,5 +1,5 @@
 // initializing arguments
-const args = [1, 2];
+const args = [];
 // using if condintion to check for arguments
 if (args.length == 0) {
     console.log('No argument');
