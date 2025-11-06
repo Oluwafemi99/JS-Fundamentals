@@ -4,7 +4,7 @@ const args = process.argv.slice(2)
 let num = Number(args)
 
 if (!isNaN(num)) {
-    console.log(num)
+    console.log('My number:', num)
 }else {
     console.log('Not a number')
 }
