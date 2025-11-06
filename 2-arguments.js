@@ -1,5 +1,5 @@
 // initializing arguments
-let args = ['femi']
+const args = process.argv.slice(2);
 // using if condintion to check for arguments
 if (args.length == 0) {
     console.log('No argument');
