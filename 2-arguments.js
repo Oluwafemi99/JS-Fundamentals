@@ -1,5 +1,5 @@
 // initializing arguments
-let args = []
+let args = ['femi']
 // using if condintion to check for arguments
 if (args.length == 0) {
     console.log('No argument');
