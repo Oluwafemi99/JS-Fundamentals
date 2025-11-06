@@ -1,3 +1,4 @@
+// script that covert to interger or print not a number
 const args = process.argv.slice(2)
 
 let num = Number(args)
